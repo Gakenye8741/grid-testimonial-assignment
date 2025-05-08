@@ -48,9 +48,7 @@
     font-size: 0.9rem;
     font-weight: 600;
   }
-  
-  
-  
+
   .card h3 {
     font-size: 1rem;
     margin-bottom: 1rem;
@@ -61,8 +59,7 @@
     font-size: 0.8rem;
 
   }
-  
-  /* Unique styles */
+
   .first-card {
     background-color: hsl(263, 55%, 52%);
     color: white;
@@ -99,13 +96,7 @@
     grid-row: 1/ span  2;
     grid-column: 4;
   }
-  /* Responsive for mobile */
-  @media (max-width: 768px) {
-    main.testimonials-grid {
-      grid-template-columns: 1fr;
-    }
-  
-    .card--purple,
+
     .card--dark {
       grid-column: span 1;
     }
