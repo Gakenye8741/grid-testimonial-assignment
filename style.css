@@ -100,5 +100,32 @@
     .card--dark {
       grid-column: span 1;
     }
+
+@media screen and (max-width: 660px){
+  .container{
+    grid-template-columns: 1fr;
   }
+  .card,
+  .forth-card,
+  .third-card,
+  .second-card{
+    grid-column: span 1;
+    grid-row: auto;
+  }
+  body{
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 1000px){
+  .container{
+    grid-template-columns: 1fr;
+  }
+  .card,
+  .forth-card,
+  .third-card,
+  .second-card{
+    grid-column: span 1;
+    grid-row: auto;
+  }
+}
   
